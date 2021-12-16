@@ -1,0 +1,314 @@
+CRITICAL - 2021-12-14 08:46:24 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\coralistest\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\coralistest\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-14 21:23:41 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 21:24:23 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 21:25:11 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 21:25:16 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Home.php(9): view('welcome_message')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 21:33:08 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('pages/v_login', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Home.php(9): view('pages/v_login')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 21:33:09 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('pages/v_login', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Home.php(9): view('pages/v_login')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 21:33:10 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('pages/v_login', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Home.php(9): view('pages/v_login')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 22:22:00 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\coralistest\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\coralistest\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\coralistest\system\Common.php(1097): CodeIgniter\View\View->render('pages/v_registe...', Array, true)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Welcome.php(20): view('pages/v_registe...')
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Welcome->register()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-14 22:26:09 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:26:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:27:56 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:27:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:29:40 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:29:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:30:27 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:30:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:32:45 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:32:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:32:52 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:32:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:33:29 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:33:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:33:39 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-14 22:33:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\coralistest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\coralistest\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\coralistest\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#5 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-14 22:35:00 --> No database selected
+CRITICAL - 2021-12-14 22:35:00 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#1 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#2 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-14 22:36:11 --> No database selected
+CRITICAL - 2021-12-14 22:36:11 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('riskidwipatrio1...', 'user_email', Array, NULL)
+#1 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#2 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-14 22:42:12 --> No database selected
+CRITICAL - 2021-12-14 22:42:12 --> There is no data to insert.
+#0 C:\xampp\htdocs\coralistest\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\coralistest\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\coralistest\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(34): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-14 22:42:28 --> No database selected
+CRITICAL - 2021-12-14 22:42:28 --> There is no data to insert.
+#0 C:\xampp\htdocs\coralistest\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\coralistest\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\coralistest\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(34): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 22:48:07 --> valid_email    is not a valid rule.
+#0 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_email   ')
+#1 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#2 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 22:56:51 --> valid_email    is not a valid rule.
+#0 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_email   ')
+#1 C:\xampp\htdocs\coralistest\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'riskidwipatrio1...', Array, Array)
+#2 C:\xampp\htdocs\coralistest\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\coralistest\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(824): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\coralistest\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\coralistest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\coralistest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-14 22:59:19 --> No database selected
+ERROR - 2021-12-14 22:59:19 --> No database selected
+ERROR - 2021-12-14 22:59:54 --> No database selected
+ERROR - 2021-12-14 22:59:54 --> No database selected
+ERROR - 2021-12-14 23:14:08 --> No database selected
+ERROR - 2021-12-14 23:14:08 --> No database selected
+ERROR - 2021-12-14 23:41:44 --> No database selected
+ERROR - 2021-12-14 23:41:47 --> No database selected
+ERROR - 2021-12-14 23:41:51 --> No database selected
+ERROR - 2021-12-14 23:43:55 --> No database selected
+ERROR - 2021-12-14 23:43:56 --> No database selected
+ERROR - 2021-12-14 23:45:16 --> No database selected
+ERROR - 2021-12-14 23:45:33 --> No database selected
+ERROR - 2021-12-14 23:46:39 --> No database selected
+ERROR - 2021-12-14 23:50:10 --> No database selected
+ERROR - 2021-12-14 23:50:52 --> No database selected
+ERROR - 2021-12-14 23:50:55 --> No database selected
+ERROR - 2021-12-14 23:51:45 --> No database selected
+ERROR - 2021-12-14 23:51:50 --> No database selected
+ERROR - 2021-12-14 23:52:51 --> No database selected
+ERROR - 2021-12-14 23:54:45 --> No database selected
+ERROR - 2021-12-14 23:57:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1

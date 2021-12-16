@@ -1,0 +1,46 @@
+body{
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+}
+
+.one{
+    background-color: #FEC93F;
+    position: absolute;
+    top: -10rem;
+    right: -20rem;
+}
+
+.two{
+    background-color: #E55E6C;
+    position: absolute;
+    bottom: -10rem;
+    left: -17rem;
+}
+
+.three{
+    background-color: #4CBE9A;
+}
+
+#content::-webkit-scrollbar {
+         
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  #content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0); 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+      /* color of the tracking area */
+  }
+  
+  #content::-webkit-scrollbar-thumb {
+    background-color: #47d6ab54;    /* color of the scroll thumb */
+    border-radius: 20px;    /* roundness of the scroll thumb */
+    border: 3px solid rgba(255, 255, 255, 0);  /* creates padding around scroll thumb */
+  }
+  
