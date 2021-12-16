@@ -1,8 +1,10 @@
-<?php namespace App\Controllers;
- 
+<?php
+
+namespace App\Controllers;
+
 use CodeIgniter\Controller;
 use App\Models\UserModel;
- 
+
 class Register extends Controller
 {
     protected $model;
@@ -29,9 +31,18 @@ class Register extends Controller
         $password = $this->request->getPost('password');
         $foto_profile = $this->request->getFile('uploadfoto');
 
-        $newName = $foto_profile->getRandomName();
+        if (!$foto_profile->isValid()) {
+            session()->setFlashdata('error', $foto_profile->getErrorString() . '(' . $foto_profile->getError() . ')');
+            return redirect()->back();
+        }
 
-        $foto_profile->move('./img/photoprofiles/', $newName);
+        if ($foto_profile->hasMoved()) {
+            $newName = $foto_profile->getRandomName();
+            $foto_profile->move('./img/photoprofiles/', $newName);
+        }else{
+            session()->setFlashdata('error', $foto_profile->getErrorString() . '(' . $foto_profile->getError() . ')');
+            return redirect()->back();
+        }
 
         $user = [
             'name' => $name,
@@ -45,7 +56,7 @@ class Register extends Controller
             session()->setFlashdata('success', 'Register Berhasil!');
             return redirect()->to(base_url('login'));
         } else {
-            session()->setFlashdata('error', $this->model->errors());
+            session()->setFlashdata('error', [$this->model->errors()]);
             return redirect()->back();
         }
     }

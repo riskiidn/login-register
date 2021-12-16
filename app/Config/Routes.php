@@ -32,6 +32,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Login::index');
+$routes->get('/cek', 'Login::test');
 $routes->group('register', function($routes){
     $routes->get('/', 'Register::index');
     $routes->post('/', 'Register::store');
@@ -41,6 +42,10 @@ $routes->group('login', function ($routes) {
     $routes->post('/', 'Login::login');
     $routes->get('/forgotpassword', 'Login::forgotPassword');
     $routes->post('/forgotpassword', 'Login::forgotPassword');
+});
+$routes->group('resetpassword', function ($routes) {
+    $routes->get('/', 'Resetpassword::index');
+    $routes->post('/', 'Resetpassword::reset');
 });
 $routes->group('dashboard', function ($routes) {
     $routes->get('/', 'Dashboard::index');

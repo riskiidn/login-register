@@ -3,8 +3,9 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;
+use CodeIgniter\Controller;
 
-class Login extends BaseController
+class Login extends Controller
 {
     protected $model;
 
@@ -47,14 +48,14 @@ class Login extends BaseController
             ->first();
 
         if (!$user) {
-            session()->setFlashdata('error', 'Email atau password anda salah.');
+            session()->setFlashdata('error', 'Wrong email or password');
             return redirect()->back();
         }
 
         $passwordCheck = password_verify($password, $user['password']);
 
         if (!$passwordCheck) {
-            session()->setFlashdata('error', 'Email atau password anda salah.');
+            session()->setFlashdata('error', 'Wrong email or password');
             return redirect()->back();
         }
 
@@ -98,8 +99,10 @@ class Login extends BaseController
                 if ($this->model->affectedRows() == 1) {
                     $to = $email;
                     $subject = "Reset Password";
-                    $token  = $user['id'];
-                    $message = 'Hi' . $user['name'] . '<br><br> Your reset password request has been received. please click the bellow link to resset your password.<br><br> <a href="' . base_url() . '/login/resetpassword/' . $token . '">';
+                    $token = $this->model->insertToken($user['id']);
+                    $qstring = base64_encode($token);
+                    $message = 'Hi ' . $user['name'] . '<br><br> Your reset password request has been received. please click the bellow link to resset your password.<br><br> <a href="' . base_url() . '/resetpassword/reset/' . $qstring . '">Reset Password</a>';
+
                     $email = \Config\Services::email();
                     $email->setTo($to);
                     $email->setFrom('riskidwipatrio.indonesia@gmail.com', 'Riski Dwi Patrio');
@@ -109,7 +112,7 @@ class Login extends BaseController
                         session()->setTempdata('success', 'The reset link has been sent to your email');
                         return redirect()->to(current_url());
                     } else {
-                        session()->setFlashdata('error', "Sorry we can't send email right now, please try again");
+                        session()->setFlashdata('error', "Sorry we can't send email right now please try again later");
                         return redirect()->back();
                     }
                 }

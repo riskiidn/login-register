@@ -33,7 +33,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $protocol = 'mail';
+    public $protocol = 'smtp.gmail.com';
 
     /**
      * The server path to Sendmail.
@@ -54,21 +54,21 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPUser = 'riskidwipatrio.indonesia@gmail.com';
+    public $SMTPUser = '';
 
     /**
      * SMTP Password
      *
      * @var string
      */
-    public $SMTPPass = 'kimczbzxgbldgcjl';
+    public $SMTPPass = '';
 
     /**
      * SMTP Port
      *
      * @var int
      */
-    public $SMTPPort = 587;
+    public $SMTPPort = 465;
 
     /**
      * SMTP Timeout (in seconds)
@@ -89,7 +89,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPCrypto = 'tls';
+    public $SMTPCrypto = 'ssl';
 
     /**
      * Enable word-wrap
